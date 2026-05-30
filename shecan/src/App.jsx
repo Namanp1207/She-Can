@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
-import Form from './pages/Form/Form.jsx'
+import Form from './pages/Form/Form'
 
 const App = () => {
 
@@ -11,7 +11,7 @@ const App = () => {
     <div className='app'>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/Form' element={<Form/>} />
+        <Route path='/form' element={<Form/>} />
       </Routes>
     </div>
   )

@@ -1,6 +1,8 @@
 import formModel from "../models/formModel.js";
 import validator from "validator";
 
+const frountend_URL = "https://she-can-frontend-h6d0.onrender.com";
+
 const formRegister = async (req,res) => {
     console.log(req.body)
 

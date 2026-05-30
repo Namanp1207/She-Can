@@ -4,7 +4,7 @@ import Dashboard from './pages/dashboard/dashboard'
 
 const App = () => {
 
-  const url = "http://localhost:4000"
+  const url = "https://she-can-backend-ol9b.onrender.com"
 
   return (
     <div className='app'>

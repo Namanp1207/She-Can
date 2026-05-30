@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Home.css'
 
 const Home = () => {
@@ -19,7 +20,7 @@ const Home = () => {
           <p>
             She Can Foundation supports women through education,skill development, leadership opportunities, and communityinitiatives that create meaningful impact.
           </p>
-          <a className='btn' href="#/form">Volunteer / Join Us</a>
+          <Link  className='btn' href="#/form">Volunteer / Join Us</Link >
         </div>
         <div className='hero-image'>
           <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=900" alt="Women Empowerment" />

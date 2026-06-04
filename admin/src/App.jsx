@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className='app'>
       <Routes>  
-        <Route path='/admin' element={<Dashboard url={url} />} />
+        <Route path='/' element={<Dashboard url={url} />} />
       </Routes>
     </div>
   )
